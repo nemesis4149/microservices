@@ -21,6 +21,10 @@ spring:
           uri: lb://auth-service
           predicates:
             - Path=/v1/**
+        - id: serveur-service
+          uri: lb://serveur-service
+          predicates:
+            - Path=/serveurs/**
 eureka:
   instance:
     appname: ${spring.application.name}

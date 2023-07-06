@@ -64,5 +64,20 @@ services:
         - Eureka
         - Mongo
         - configserver
+    serveur-service:
+      container_name: serveur-service
+      build: ./serveur-service
+      ports:
+        - "8084:8084"
+      hostname: serveur
+      environment:
+        - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+        - SPRING_CLOUD_CONFIG_URI=http://configserver:8888/
+
+      image: "serveur-service"
+      depends_on:
+        - Eureka
+        - Mongo
+        - configserver
     
    
