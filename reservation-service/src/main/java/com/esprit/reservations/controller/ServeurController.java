@@ -1,8 +1,8 @@
-package com.esprit.serveurs.controller;
+package com.esprit.reservations.controller;
 
-import com.esprit.serveurs.exception.ServeurNotFoundException;
-import com.esprit.serveurs.model.Serveur;
-import com.esprit.serveurs.service.ServeurService;
+import com.esprit.reservations.exception.ServeurNotFoundException;
+import com.esprit.reservations.model.Serveur;
+import com.esprit.reservations.service.ServeurService;
 import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

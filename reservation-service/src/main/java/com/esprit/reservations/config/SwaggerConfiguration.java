@@ -36,11 +36,9 @@ public class SwaggerConfiguration {
                 "0.0.1-SNAPSHOT",
                 "Terms of Service",
                 new Contact("Faicel",
-                        "",
+                        "Mouhib",
                         ""),
-                new Contact("Mouhib",
-                        "",
-                        ""),
+                
                 "",
                 "",
                 Collections.emptyList());
