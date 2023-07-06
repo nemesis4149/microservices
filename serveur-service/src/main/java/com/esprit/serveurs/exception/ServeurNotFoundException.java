@@ -1,4 +1,4 @@
-package com.esprit.reservations.exception;
+package com.esprit.serveurs.exception;
 
 
 public class ServeurNotFoundException extends Throwable {

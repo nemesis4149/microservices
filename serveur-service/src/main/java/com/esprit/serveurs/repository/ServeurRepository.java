@@ -1,6 +1,6 @@
-package com.esprit.reservations.repository;
+package com.esprit.serveurs.repository;
 
-import com.esprit.reservations.model.Serveur;
+import com.esprit.serveurs.model.Serveur;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

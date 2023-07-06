@@ -1,4 +1,4 @@
-package com.esprit.reservations;
+package com.esprit.serveurs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

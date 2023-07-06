@@ -1,4 +1,4 @@
-package com.esprit.reservations.model;
+package com.esprit.serveurs.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

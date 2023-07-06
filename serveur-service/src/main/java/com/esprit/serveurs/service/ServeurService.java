@@ -1,7 +1,7 @@
-package com.esprit.reservations.service;
+package com.esprit.serveurs.service;
 
-import com.esprit.reservations.exception.ServeurNotFoundException;
-import com.esprit.reservations.model.Serveur;
+import com.esprit.serveurs.exception.ServeurNotFoundException;
+import com.esprit.serveurs.model.Serveur;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
