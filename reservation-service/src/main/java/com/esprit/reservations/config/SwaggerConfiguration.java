@@ -27,6 +27,7 @@ public class SwaggerConfiguration {
                 .build()
                 .apiInfo(getApiInfo());
     }
+    
 
     private ApiInfo getApiInfo() {
         return new ApiInfo(
@@ -35,6 +36,9 @@ public class SwaggerConfiguration {
                 "0.0.1-SNAPSHOT",
                 "Terms of Service",
                 new Contact("Faicel",
+                        "",
+                        ""),
+                new Contact("Mouhib",
                         "",
                         ""),
                 "",
